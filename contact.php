@@ -30,7 +30,7 @@
 
     </head>
     <body>
-      <!--#include file="header.shtml" -->
+      <?php include('header.php'); ?>
 
         <section id="content-region-3" class="padding-40 page-tree-bg">
             <div class="container">
@@ -105,7 +105,7 @@
         </div><!--contact page end-->
         <div class="space-70"></div>
         
-  <!--#include file="footer.shtml" -->
+  <?php include('footer.php'); ?>
   
              <!--scripts-->
         <script src="assets/js/jquery.min.js" type="text/javascript"></script>

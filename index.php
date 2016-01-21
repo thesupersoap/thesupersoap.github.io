@@ -30,57 +30,56 @@
     </head>
     <body>
 
-       <!--#include file="header.shtml" -->
-
+      <?php
+include('header.php');
+?>
 
         <section id="slider-sec" class="slider-reg">
-            <div class="main-flex-slider">
+          <div class="main-flex-slider">
+            <ul class="slides">
+            <li>
+            <figure>
+              <div class="main-flex-slider">
                 <ul class="slides">
-                    <li>
-                        <figure>
-
-                            <img src="assets/img/img-1.jpg" class="img-responsive" alt="slider-img-1">
-                            <figcaption class="slider-overlay ">
-                                <div class="slider-text animated fadeInDown">
-                                    <h1>Family owned and operated</h1>
-                                    <p>
-                                        Bizwrap theme comes with easy customization
-                                    </p>
-                                    <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">Purchase Now</a></p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="assets/img/img-2.jpg" class="img-responsive" alt="slider-img-1">
-                            <figcaption class="slider-overlay">
-                                <div class="slider-text">
-                                    <h1>clean and modern design</h1>
-                                    <p>
-                                        Bizwrap is a Useful theme that you can use for your Business.
-                                    </p>
-                                    <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">View Portfolio</a></p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="assets/img/img-3.jpg" class="img-responsive" alt="slider-img-1">
-                            <figcaption class="slider-overlay">
-                                <div class="slider-text">
-                                    <h1>Perfect for Small Projects</h1>
-                                    <p>
-                                        Bizwrap mainly design for small business projects.
-                                    </p>
-                                    <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">Contact us</a></p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
+                  <li>
+                    <figure> <img src="assets/img/img-1.jpg" class="img-responsive" alt="slider-img-1">
+                      <figcaption class="slider-overlay ">
+                        <div class="slider-text animated fadeInDown">
+                          <h1>Family owned and operated</h1>
+                          <p> Bizwrap theme comes with easy customization </p>
+                          <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">Purchase Now</a></p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure> <img src="assets/img/img-2.jpg" class="img-responsive" alt="slider-img-1">
+                      <figcaption class="slider-overlay">
+                        <div class="slider-text">
+                          <h1>clean and modern design</h1>
+                          <p> Bizwrap is a Useful theme that you can use for your Business. </p>
+                          <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">View Portfolio</a></p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure> <img src="assets/img/img-3.jpg" class="img-responsive" alt="slider-img-1">
+                      <figcaption class="slider-overlay">
+                        <div class="slider-text">
+                          <h1>Perfect for Small Projects</h1>
+                          <p> Bizwrap mainly design for small business projects. </p>
+                          <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">Contact us</a></p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </li>
                 </ul>
-            </div>
+              </div>
+            </figure>
+            </li>
+            </ul>
+          </div>
         </section><!--main flex slider end-->
         <div class="space-50"></div>
         <div class="container">
@@ -360,7 +359,7 @@
                 </div><!--latest news items-->
             </div><!--row end-->
         </div><!--container recent news end-->
-        <div class="space-50"></div>
+        
      <!--   <div class="newsletter-section">
             <div class="container">
                 <div class="row">
@@ -394,7 +393,9 @@
         -->
 
 
-                      <!--#include file="footer.shtml" -->
+                            <?php
+include('footer.php');
+?>
 
 
         <!--scripts-->
