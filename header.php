@@ -27,13 +27,15 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php"><img src="assets/img/header_logo.png" class="img-responsive" alt=""></a>
+                        <a class="navbar-brand" href="index.php"><img src="assets/img/header_logo_4.png" alt="" class="img-responsive"></a>
+                      <div class="space-50"></div>
+                        
                     </div>
                     <div class="navbar-collapse collapse">
 
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active dropdown">
-                            <a href="index.php">Home</a></li>
+                            <a href="/">Home</a></li>
                             <li class="dropdown">
                                 <a href="obituaries.php">Obituaries</a>
                             </li>
