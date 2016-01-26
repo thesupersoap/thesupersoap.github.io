@@ -5,7 +5,7 @@
             <div class="container">
                 <ul class="info list-inline pull-left hidden-xs">
                     <li><a href="mailto:philip@steinandsons.com" class="hover-color"><i class="ion-ios-email-outline"></i> Email us</a></li>
-                    <li><i class="ion-iphone"></i> (916) 541-6979 </li>
+                    <li><i class="ion-iphone"></i> 916-541-6979, 530-802-1718 </li>
                 </ul>  
                 <div class="pull-right">
                    <!--  <ul class="info list-inline hidden-xs">
